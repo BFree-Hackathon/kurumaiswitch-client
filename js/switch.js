@@ -9,8 +9,8 @@
 
   // サーバーに送信するための情報
   var Info = function(latitude, longitute, evaluation) {
-    this.lat = latitude;
-    this.long = longitute;
+    this.latitude = latitude;
+    this.longitude = longitute;
     this.evaluation = evaluation;
   };
 
@@ -57,7 +57,7 @@
   }
 
   function onErrorGeo() {
-    window.alert('現在位置情報が利用できません．後ほどお試しください．');
+    window.alert('現在位置情報が利用できません．設定をご確認ください．');
   }
 
 })(window, document, navigator, jQuery, API);
