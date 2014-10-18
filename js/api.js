@@ -15,6 +15,16 @@
           evaluation: info.evaluation
         }
       });
+    },
+    getInfo: function(){
+      var url = kHost + '/info';
+      console.log('GET info from', url);
+      var getInfo = $.ajax({
+        url: url,
+        type: 'GET'
+      });
+      console.log(getInfo);
+      return getInfo;
     }
   };
 

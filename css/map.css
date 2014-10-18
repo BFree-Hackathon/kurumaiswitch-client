@@ -6,19 +6,33 @@ html{
 body{
     height: 100%;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
-#map_canvas{
+div#map_canvas{
     height: 75%;
-    width: 100%
+    width: 500px;
+    top: 50px;
+    margin: 0 auto;
 }
 
-#comment{
+div#comment{
     position: absolute;
     top: 5px;
     left: 50%;
     margin-left: -180px;
+    z-index: 5;
+    background-color: #fff;    
+    padding: 5px;    
+    border: 1px solid #999;
+}
+
+div#button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+/*    margin-left: -180px;*/
     z-index: 5;
     background-color: #fff;    
     padding: 5px;    
