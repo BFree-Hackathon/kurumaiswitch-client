@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.mooning-background {
+  background: url("../images/mooning.png");
+}
+
+.icon-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.icon-button:active {
+  text-shadow: 5px 5px 20px rgba(128, 255, 255, 0.7),
+               5px -5px 20px rgba(128, 255, 255, 0.7),
+               -5px 5px 20px rgba(128, 255, 255, 0.7),
+               -5px -5px 20px rgba(128, 255, 255, 0.7);
+}
+
+.icon-red::before {
+  color: #f88;
+}
+
+.icon-blue::before {
+  color: #88f;
+}
+
+.icon-yellow::before {
+  color: #ff8;
+}
+
+.icon-circle::before {
+  content: "\25ef";
+  font-weight: bold;
+}
+
+.icon-triangle::before {
+  content: "\25b3";
+  font-weight: bold;
+}
+
+.icon-cross::before {
+  content: "\00d7";
+  font-weight: bold;
+}
+
+.modal-loading {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modal-loading.active {
+  display: block;
+}
+
+.button-container {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#nice-button,
+#ok-button,
+#bad-button {
+  display: block;
+  font-size: 27rem;
+  position: absolute;
+}
+
+#nice-button {
+  height: 40%;
+  left: 0;
+  top: 0;
+  width: 70%;
+}
+
+#ok-button {
+  height: 30%;
+  left: 30%;
+  top: 40%;
+  width: 70%;
+}
+
+#bad-button {
+  height: 30%;
+  left: 5%;
+  top: 70%;
+  width: 70%;
+}
