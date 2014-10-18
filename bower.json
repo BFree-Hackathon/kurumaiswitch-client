@@ -1,0 +1,15 @@
+{
+  "name": "kurumaiswitch-client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/BFree-Hackathon/kurumaiswitch-client",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
