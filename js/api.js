@@ -1,5 +1,5 @@
 (function(window, $) {
-  var kHost = 'http://localhost:8080';
+  var kHost = 'http://lod.lisra.jp:3333';
 
   window.API = {
     postInfo: function(info) {
@@ -17,14 +17,12 @@
       });
     },
     getInfo: function(){
-      var url = kHost + '/info';
+      var url = kHost + '/allinfo';
       console.log('GET info from', url);
-      var getInfo = $.ajax({
+      return $.ajax({
         url: url,
         type: 'GET'
       });
-      console.log(getInfo);
-      return getInfo;
     }
   };
 

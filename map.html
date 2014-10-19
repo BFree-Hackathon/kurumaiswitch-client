@@ -4,21 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <title>車イスイッチ - マップ</title>
-    <script type="text/javascript"
-      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBM1B2Xuw9IRAsJPp5SoMbik-kyBmGGwEs&sensor=FALSE">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBM1B2Xuw9IRAsJPp5SoMbik-kyBmGGwEs&sensor=FALSE">
     </script>
     <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/map.js"></script>
     <script type="text/javascript" src="./js/api.js"></script>
+    <script type="text/javascript" src="./js/map.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/map.css">
   </head>
   <body onload="initialize()">
     <div id="comment">
-        良いね！: 緑　条件付きいいね: 黄　アウト!!: 赤
-    </div>
-    <div id="button">
-        <input onclick="load_from_DB();" type=button value="マーカー追加">
-        <input onclick="removeMarker();" type=button value="マーカー削除">
+        良いね！: 赤　条件付きいいね: 黄　アウト!!: 青
     </div>
     <div id="map_canvas">
         位置情報を取得しています...  
