@@ -16,6 +16,21 @@
         }
       });
     },
+    postComment: function(infoId, body) {
+      var url = kHost + '/comment';
+
+      console.log('POST comment to', url);
+      console.log('infoId=' + infoId + ', body=' + body);
+
+      return $.ajax({
+        url: url,
+        type: 'POST',
+        data: {
+          infoId: infoId,
+          body: body
+        }
+      });
+    },
     getInfo: function(){
       var url = kHost + '/allinfo';
       console.log('GET info from', url);
