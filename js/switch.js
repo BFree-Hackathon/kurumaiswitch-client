@@ -34,6 +34,7 @@
     API.postInfo(info)
       .done(function() {
         console.log('success');
+        PostHistories.push(info);
       })
       .fail(function() {
         console.log('error');
