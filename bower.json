@@ -11,6 +11,7 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "gmap3": "~6.0.0"
+    "gmap3": "~6.0.0",
+    "font-awesome": "~4.2.0"
   }
 }

@@ -51,11 +51,14 @@
 .modal-loading {
   background-color: rgba(255, 255, 255, 0.6);
   bottom: 0;
+  color: #666;
   display: none;
   left: 0;
+  padding-top: 40%;
   position: absolute;
   top: 0;
   right: 0;
+  text-align: center;
 }
 
 .modal-loading.active {

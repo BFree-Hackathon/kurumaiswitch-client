@@ -10,8 +10,8 @@
         url: url,
         type: 'POST',
         data: {
-          lat: info.lat,
-          long: info.long,
+          lat: info.latitude,
+          lng: info.longitude,
           evaluation: info.evaluation
         }
       });
